@@ -8,7 +8,7 @@
 }
 
 .nav {
-
+    position: fixed;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -107,12 +107,23 @@
     padding: 0.9rem 1.6rem;
 }
 
+.mid .btn a.simple:hover {
+    color: #ff5733;
+
+}
+
 .mid .btn a.border {
     color: #ff5733;
     border: 1px solid #ff5733;
     font-weight: 500;
     padding: 0.9rem 1.6rem;
     border-radius: 3px;
+}
+
+.mid .btn a.border:hover {
+    background-color: white;
+    border: none;
+    /* border: 1px solid white; */
 }
 
 
