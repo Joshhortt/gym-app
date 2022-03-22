@@ -126,4 +126,13 @@
     /* border: 1px solid white; */
 }
 
+.details {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 15rem;
+}
+
 
