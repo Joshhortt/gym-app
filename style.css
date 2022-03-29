@@ -355,4 +355,122 @@
     color: #7f8c8d;
 }
 
+.classes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem 8em;
+}
+.classes .perfect {
+   font-size: 1.3rem;
+   color: #95a5a6;
+   padding-bottom: 6px;
+   text-align: center;
+}
+
+.classes .fitness {
+    font-size: 2.2rem;
+    color: #222;
+    font-weight: 700;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.classes .classesMenu .team1 {
+    width: 32%;
+    height: auto;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow:
+    4.5px 2.3px 3.6px rgba(0, 0, 0, 0.035),
+    12.5px 6.3px 10px rgba(0, 0, 0, 0.05),
+    30.1px 15.1px 24.1px rgba(0, 0, 0, 0.065),
+    100px 50px 80px rgba(0, 0, 0, 0.1)
+    ;
+    /* box-shadow source from https://shadows.brumm.af/ */
+}
+
+.classes .classesMenu .team1 .img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.classes .classesMenu .team1 .teamDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.classes .classesMenu .team1 .teamDetails .name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px 0 30px;
+}
+
+.classes .classesMenu .team1 .teamDetails .name .nameDetails h4 {
+    color: #212529;
+    font-size: 1.7rem;
+}
+
+.classes .classesMenu .team1 .teamDetails .name .nameDetails p {
+    color: #212529;
+    font-size: 1.1rem;
+}
+
+.classes .classesMenu .team1 .teamDetails .name .nameDetails p span {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.classes .classesMenu .team1 .teamDetails .name .num h6 {
+    font-size: 1rem;
+    background: #f13a11;
+    width: 3.6rem;
+    height: 3.6rem;
+    line-height: 3.6rem;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.classes .classesMenu .team1 .pro p {
+    font-size: 1.1rem;
+    color: #666262;
+}
+
+/* .classes .classesMenu .team1 .name, .classes .classesMenu .team1 .pro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.classes .classesMenu .team1 .name {
+    padding: 5px 20px 0 20px;
+}
+
+.classes .classesMenu .team1 .pro {
+    padding: 0 20px 5px 20px;
+}
+
+.classes .classesMenu .team1 .name h4 {
+    color:#212529;
+    font-size: 1.5rem;
+}
+
+.classes .classesMenu .team1 .name i, .classes .classesMenu .team1 .pro i {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    cursor: pointer;
+    color:#212529;
+}
+
+.classes .classesMenu .team1 .pro p {
+    color: #7f8c8d;
+} */
+
+
 
