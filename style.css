@@ -485,6 +485,9 @@
 
 .contact {
     padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .contact .form {
@@ -537,4 +540,34 @@
     text-align: center;
     font-size: 1.2rem;
     margin: 12px 0;
+}
+
+.contact .map {
+    width: 45%;
+
+}
+
+.contact .map iframe {
+    width: 100%;
+
+}
+
+.contact .map h2 {
+    font-size: 2rem;
+    color: #212529;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.contact .map p {
+    font-size: 1rem;
+    color: #212529;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.contact .map p i {
+    color:#f13a11;
+    padding-right: 4px;
 }
