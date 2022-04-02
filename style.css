@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+/* --- Body Section --- */
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* --- Navbar Section --- */
 .nav {
     position: fixed;
     display:flex;
@@ -72,6 +73,7 @@
     opacity: 0.85;
 }
 
+/* --- Hero Section --- */
 .mid {
     position: absolute;
     top: 50%;
@@ -130,6 +132,7 @@
     /* border: 1px solid white; */
 }
 
+/* --- Details Section --- */
 .details {
     width: 100%;
     display:flex;
@@ -208,7 +211,7 @@
     margin-bottom: 0.8rem;
 }
 
-
+/* --- Trainers Section --- */
 .trainer  {
     background: #f9f9f9;
     padding: 8rem;
@@ -355,6 +358,7 @@
     color: #7f8c8d;
 }
 
+/* --- Classes or Training Section --- */
 .classes {
     display: flex;
     flex-direction: column;
@@ -452,37 +456,7 @@
     color: #666262;
 }
 
-/* .classes .classesMenu .team1 .name, .classes .classesMenu .team1 .pro {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.classes .classesMenu .team1 .name {
-    padding: 5px 20px 0 20px;
-}
-
-.classes .classesMenu .team1 .pro {
-    padding: 0 20px 5px 20px;
-}
-
-.classes .classesMenu .team1 .name h4 {
-    color:#212529;
-    font-size: 1.5rem;
-}
-
-.classes .classesMenu .team1 .name i, .classes .classesMenu .team1 .pro i {
-    font-size: 1.3rem;
-    font-weight: bolder;
-    cursor: pointer;
-    color:#212529;
-}
-
-.classes .classesMenu .team1 .pro p {
-    color: #7f8c8d;
-} */
-
+/* --- Contact Section --- */
 .contact {
     padding: 8rem;
     display: flex;
@@ -572,6 +546,7 @@
     padding-right: 4px;
 }
 
+/* --- Footer Section --- */
 .footer {
     border-top: 1px solid #e5e9ea;
     padding: 5rem 5rem;
@@ -590,4 +565,25 @@
 .footer p i {
     color: #f13a11;
     padding-right: 5px;
+}
+
+/* --- Media Queries --- */
+@media screen and (min-width: 2000px) {
+    
+}
+
+@media screen and (max-width: 1042px) {
+    
+}
+
+@media screen and (max-width: 991px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 496px) {
+    
 }
