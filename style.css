@@ -571,3 +571,23 @@
     color:#f13a11;
     padding-right: 4px;
 }
+
+.footer {
+    border-top: 1px solid #e5e9ea;
+    padding: 5rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    color: #7f8c8d;
+    justify-content: flex-start;
+    font-size: 1rem;
+}
+
+.footer p i {
+    color: #f13a11;
+    padding-right: 5px;
+}
