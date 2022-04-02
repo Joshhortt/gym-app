@@ -427,15 +427,19 @@
 }
 
 .classes .classesMenu .team1 .teamDetails .name .num h6 {
-    font-size: 1rem;
+    font-size: 0.9rem;
     background: #f13a11;
-    width: 3.6rem;
-    height: 3.6rem;
-    line-height: 3.6rem;
+    font-weight: 600;
+    width: 3.75rem;
+    height: 3.75rem;
+    line-height: 3.75rem;
     text-align: center;
     border-radius: 50%;
 }
 
+.classes .classesMenu .team1 .pro  {
+    padding: 15px 30px 30px 30px;
+}
 .classes .classesMenu .team1 .pro p {
     font-size: 1.1rem;
     color: #666262;
