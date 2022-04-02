@@ -377,6 +377,13 @@
     text-align: center;
 }
 
+.classes .classesMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .classes .classesMenu .team1 {
     width: 32%;
     height: auto;
