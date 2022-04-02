@@ -483,5 +483,47 @@
     color: #7f8c8d;
 } */
 
+.contact {
+    padding: 8rem;
+}
 
+.contact .form {
+    width: 45%;
+}
 
+.contact .form h2 {
+    font-size: 2rem;
+    color: #212529;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.contact .form .submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contact .form .submit input, .contact .form .submit textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #95a5a6;
+    outline: none;
+    margin: 12px 0;
+}
+
+.contact .form .submit input:focus, .contact .form .submit textarea:focus {
+    border: 1px solid #f13a11;
+}
+
+.contact .form .submit input::placeholder {
+    color:#7f8c8d;
+    font-size: 1rem;
+}
+
+.contact .form .submit textarea::placeholder {
+    color:#7f8c8d;
+    font-size: 1rem;
+    height: 80%;
+}
