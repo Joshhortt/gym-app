@@ -899,7 +899,253 @@
 }
 
 @media screen and (max-width: 768px) {
+        /* Nav Section - small Tablet size */
+    .nav h2 {
+        font-size: 1.5rem;
+    }
+
+    .back {
+        background-position: center;
+    }
     
+    /* Hero Section - small Tablet size */
+
+    .mid p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .mid h2 {
+        font-size: 2rem;
+    }
+    
+    .mid h1 {
+        font-size: 2.5rem
+    }
+    
+    .mid .btn {
+     margin-top: 1rem;
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+    
+    .mid .btn a {
+       font-size: 0.8rem;
+    }
+    
+    .mid .btn a.simple {
+        padding: 0.7rem 1.4rem;
+        margin-bottom: 7px;
+    }
+    
+    /* .mid .btn a.border {
+        padding: 0.7rem 1.4rem;
+    } */
+ 
+    /* Details Section - small Tablet size */
+
+    .details {
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .details .one{
+        width: 70%;
+    }
+
+    .details .one h3 {
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+    }
+    
+    .details .one p {
+        font-size: 1rem;
+        padding-bottom: 2.2rem;
+    }
+    
+    .details .two{
+        padding-left: 0;
+        border-left: 0;
+        border-top: 1px solid #666262;
+        width: 70%;
+        margin-top: 1.7rem;
+        padding-top: 1.7rem;
+    }
+    
+    .details .two h3{
+        font-size: 1.8rem;
+    }
+    
+    .details .two h5{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    .details .two p {
+        font-size: 0.9rem;
+        margin-bottom: 0.6rem;
+    }
+    /* Trainer Section - small Tablet size */
+    .trainer  {
+       padding: 6rem 7rem;
+     
+    }
+    
+    .trainer .about h2 {
+        font-size: 2rem;
+        padding-bottom: 1.4rem;
+    }
+    
+    .trainer .about p {
+        font-size: 1rem;
+    }
+    
+    .trainer .people .team1 {
+        width: 48%;
+    }
+    
+    .trainer .people .team1 .name {
+        padding: 5px 15px 0 15px;
+    }
+    
+    .trainer .people .team1 .pro {
+        padding: 0 15px 5px 15px;
+    }
+    
+    .trainer .people .team1 .name h4 {
+        font-size: 1.1rem;
+    }
+    
+    .trainer .people .team1 .name i, .trainer .people .team1 .pro i {
+        font-size: 1.1rem;
+    }
+    
+    /* trainer team 2 */
+     
+     .trainer .people .team2 {
+         width: 48%;
+     }
+     
+     .trainer .people .team2 .name {
+         padding: 5px 15px 0 15px;
+     }
+     
+     .trainer .people .team2 .pro {
+        padding: 0 15px 5px 15px;
+    }
+     
+     .trainer .people .team2 .name h4 {
+         font-size: 1.1rem;
+     }
+     
+     .trainer .people .team2 .name i, .trainer .people .team2 .pro i {
+         font-size: 1.1rem;
+     }
+    
+    /* --- Classes or Training Section - small Tablet size--- */
+    .classes {
+        padding: 6rem;
+    }
+    .classes .perfect {
+       font-size: 1.1rem;
+       padding-bottom: 4px;
+    }
+    
+    .classes .fitness {
+        font-size: 2rem;
+        padding-bottom: 30px;
+    }
+    
+    .classes .classesMenu .team1 .teamDetails {
+        padding-bottom: 7px;
+    }
+    
+    .classes .classesMenu .team1 .teamDetails .name {
+        padding: 5px 15px 0 15px;
+    }
+    
+    .classes .classesMenu .team1 .teamDetails .name .nameDetails h4 {
+        font-size: 1.2rem;
+    }
+    
+    .classes .classesMenu .team1 .teamDetails .name .nameDetails p {
+        font-size: 1rem;
+    }
+    
+    .classes .classesMenu .team1 .teamDetails .name .nameDetails p span {
+        font-size: 1rem;
+    }
+    
+    .classes .classesMenu .team1 .teamDetails .name .num h6 {
+        font-size: 0.8rem;
+        font-weight: 600;
+        width: 3.25rem;
+        height: 3.25rem;
+        line-height: 3.25rem;
+    }
+    
+    .classes .classesMenu .team1 .pro  {
+        padding: 15px 15px 30px 15px;
+    }
+    .classes .classesMenu .team1 .pro p {
+        font-size: 0.8rem;
+    }
+    
+    
+    /* --- Contact Section - small Tablet size --- */
+    .contact {
+        padding: 6rem;
+    }
+    
+    .contact .form h2 {
+        font-size: 1.5rem;
+        padding-bottom: 7px;
+       
+    }
+    
+    .contact .form .submit input, .contact .form .submit textarea {
+        padding: 12px;
+        margin: 10px 0;
+    }
+    
+    .contact .form .submit input::placeholder {
+        font-size: 0.8rem;
+    }
+    
+    .contact .form .submit textarea::placeholder {
+        font-size: 0.8rem;
+    }
+    
+    .contact .form .submit a {
+        padding: 12px 0;
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+    
+    /* .contact .map iframe {
+        width: 100%;
+        height: 70%
+    } */
+    
+    .contact .map h2 {
+        font-size: 1.5rem;
+        padding-bottom: 7px;
+    }
+    
+    .contact .map p {
+        font-size: 0.9rem;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    
+    /* --- Footer Section - small tablet size --- */
+    .footer {
+        padding: 6rem;
+    }
 }
 
 @media screen and (max-width: 496px) {
