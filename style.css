@@ -161,12 +161,6 @@
     justify-content: flex-start;
 }
 
-.details .two{
-    width: 45%;
-    border-left: 1px solid #666262;
-    padding-left: 4rem;
-}
-
 .details .one h3 {
     font-size: 2.5rem;
     padding-bottom: 1.1rem;
@@ -201,6 +195,11 @@
     color: #f13a11;
 }
 
+.details .two{
+    width: 45%;
+    border-left: 1px solid #666262;
+    padding-left: 4rem;
+}
 
 .details .two h3{
     font-size: 2.5rem;
@@ -693,6 +692,45 @@
 
 .mid .btn a.border {
     padding: 0.7rem 1.4rem;
+}
+
+.details {
+    padding: 6rem 7rem;
+}
+
+.details .one{
+    width: 50%;
+}
+
+.details .one h3 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.details .one p {
+    font-size: 1.1rem;
+    padding-bottom: 2.2rem;
+}
+
+.details .one a {
+    font-size: 0.9rem;
+}
+
+.details .two{
+    padding-left: 3.5rem;
+}
+
+.details .two h3{
+    font-size: 2rem;
+}
+
+.details .two h5{
+    font-size: 1rem;
+}
+
+.details .two p {
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
 }
 
 }
