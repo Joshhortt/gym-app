@@ -1009,25 +1009,26 @@
     .classes {
         padding: 6rem;
     }
-    .classes .perfect {
-       font-size: 1.1rem;
-       padding-bottom: 4px;
+
+    .classes .classesMenu {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .classes .classesMenu .team1 {
+        width: 65%;
+        margin-bottom: 20px;
     }
     
-    .classes .fitness {
-        font-size: 2rem;
-        padding-bottom: 30px;
-    }
-    
-    .classes .classesMenu .team1 .teamDetails {
+    /* .classes .classesMenu .team1 .teamDetails {
         padding-bottom: 7px;
     }
     
     .classes .classesMenu .team1 .teamDetails .name {
         padding: 5px 15px 0 15px;
-    }
+    }  */
     
-    .classes .classesMenu .team1 .teamDetails .name .nameDetails h4 {
+    /* .classes .classesMenu .team1 .teamDetails .name .nameDetails h4 {
         font-size: 1.2rem;
     }
     
@@ -1052,8 +1053,7 @@
     }
     .classes .classesMenu .team1 .pro p {
         font-size: 0.8rem;
-    }
-    
+    }*/
     
     /* --- Contact Section - small Tablet size --- */
     .contact {
