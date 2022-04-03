@@ -577,8 +577,6 @@
 
 @media screen and (max-width: 1042px) {
 
-
-   
 .nav {
         padding: 1rem 4.5rem;
     }
@@ -606,6 +604,7 @@
 
 
 @media screen and (max-width: 991px) {
+    /* Nav Section - Tablet size */
     .nav {
         padding: 1rem 3rem;
     }
@@ -655,7 +654,8 @@
     display: initial;
     cursor: pointer;
 }
-                  
+    
+/* Hero Section - Tablet size */
 .mid {
     position: absolute;
     top: 50%;
@@ -702,6 +702,7 @@
     width: 50%;
 }
 
+/* Details Section - Tablet size */
 .details .one h3 {
     font-size: 2rem;
     padding-bottom: 1rem;
@@ -732,6 +733,75 @@
     font-size: 1rem;
     margin-bottom: 0.6rem;
 }
+/* Trainer Section - Tablet size */
+.trainer  {
+   padding: 6rem 7rem;
+ 
+}
+
+.trainer .about h2 {
+    font-size: 2rem;
+    padding-bottom: 1.4rem;
+}
+
+.trainer .about p {
+    font-size: 1rem;
+}
+
+.trainer .people .team1 {
+    width: 48%;
+}
+
+.trainer .people .team1 .name {
+    padding: 5px 15px 0 15px;
+}
+
+.trainer .people .team1 .pro {
+    padding: 0 15px 5px 15px;
+}
+
+.trainer .people .team1 .name h4 {
+    font-size: 1.1rem;
+}
+
+.trainer .people .team1 .name i, .trainer .people .team1 .pro i {
+    font-size: 1.1rem;
+}
+
+/* trainer team 2 */
+.trainer  {
+    padding: 6rem 7rem;
+  
+ }
+ 
+ .trainer .about h2 {
+     font-size: 2rem;
+     padding-bottom: 1.4rem;
+ }
+ 
+ .trainer .about p {
+     font-size: 1rem;
+ }
+ 
+ .trainer .people .team2 {
+     width: 48%;
+ }
+ 
+ .trainer .people .team2 .name {
+     padding: 5px 15px 0 15px;
+ }
+ 
+ .trainer .people .team2 .pro {
+    padding: 0 15px 5px 15px;
+}
+ 
+ .trainer .people .team2 .name h4 {
+     font-size: 1.1rem;
+ }
+ 
+ .trainer .people .team2 .name i, .trainer .people .team2 .pro i {
+     font-size: 1.1rem;
+ }
 
 }
 
