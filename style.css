@@ -769,19 +769,6 @@
 }
 
 /* trainer team 2 */
-.trainer  {
-    padding: 6rem 7rem;
-  
- }
- 
- .trainer .about h2 {
-     font-size: 2rem;
-     padding-bottom: 1.4rem;
- }
- 
- .trainer .about p {
-     font-size: 1rem;
- }
  
  .trainer .people .team2 {
      width: 48%;
@@ -802,6 +789,56 @@
  .trainer .people .team2 .name i, .trainer .people .team2 .pro i {
      font-size: 1.1rem;
  }
+
+
+/* --- Classes or Training Section for Tablet size--- */
+.classes {
+    padding: 6rem;
+}
+.classes .perfect {
+   font-size: 1.1rem;
+   padding-bottom: 4px;
+}
+
+.classes .fitness {
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+.classes .classesMenu .team1 .teamDetails {
+    padding-bottom: 7px;
+}
+
+.classes .classesMenu .team1 .teamDetails .name {
+    padding: 5px 15px 0 15px;
+}
+
+.classes .classesMenu .team1 .teamDetails .name .nameDetails h4 {
+    font-size: 1.2rem;
+}
+
+.classes .classesMenu .team1 .teamDetails .name .nameDetails p {
+    font-size: 1rem;
+}
+
+.classes .classesMenu .team1 .teamDetails .name .nameDetails p span {
+    font-size: 1rem;
+}
+
+.classes .classesMenu .team1 .teamDetails .name .num h6 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 3.25rem;
+    height: 3.25rem;
+    line-height: 3.25rem;
+}
+
+.classes .classesMenu .team1 .pro  {
+    padding: 15px 15px 30px 15px;
+}
+.classes .classesMenu .team1 .pro p {
+    font-size: 0.8rem;
+}
 
 }
 
