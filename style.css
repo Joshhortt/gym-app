@@ -991,60 +991,19 @@
     }
     /* Trainer Section - small Tablet size */
     .trainer  {
-       padding: 6rem 7rem;
-     
+       padding: 5rem 2rem;
+       flex-direction: column;
+       justify-content: center;
     }
-    
-    .trainer .about h2 {
-        font-size: 2rem;
-        padding-bottom: 1.4rem;
+
+    .trainer .about {
+        width: 70%;
+        margin-bottom: 1.7rem;
     }
-    
-    .trainer .about p {
-        font-size: 1rem;
+
+    .trainer .people {
+        width: 70%;
     }
-    
-    .trainer .people .team1 {
-        width: 48%;
-    }
-    
-    .trainer .people .team1 .name {
-        padding: 5px 15px 0 15px;
-    }
-    
-    .trainer .people .team1 .pro {
-        padding: 0 15px 5px 15px;
-    }
-    
-    .trainer .people .team1 .name h4 {
-        font-size: 1.1rem;
-    }
-    
-    .trainer .people .team1 .name i, .trainer .people .team1 .pro i {
-        font-size: 1.1rem;
-    }
-    
-    /* trainer team 2 */
-     
-     .trainer .people .team2 {
-         width: 48%;
-     }
-     
-     .trainer .people .team2 .name {
-         padding: 5px 15px 0 15px;
-     }
-     
-     .trainer .people .team2 .pro {
-        padding: 0 15px 5px 15px;
-    }
-     
-     .trainer .people .team2 .name h4 {
-         font-size: 1.1rem;
-     }
-     
-     .trainer .people .team2 .name i, .trainer .people .team2 .pro i {
-         font-size: 1.1rem;
-     }
     
     /* --- Classes or Training Section - small Tablet size--- */
     .classes {
