@@ -610,7 +610,7 @@
     }
 
 .nav h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     letter-spacing: 3px;
 }
 
@@ -621,30 +621,37 @@
     height: 80vh;
     position: fixed;
     top: 0px;
-    right: 300px;
+    right: -300px;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 100000;
+    margin-top: 4.2rem;
 }
 
 #item li {
-    padding-right: 30px;
-
+    padding-right: 0;
+    padding: 4px 0;
 }
 
 #item li a {
-    font-size: 0.8rem;
-    letter-spacing: 0.8px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+#item .icon {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
 }
 
 #item .icon i {
-    padding-right: 20px;
+    padding: 0 15px 0 15px;
 }
 
 #bar {
-    color:#ff5733;
-    font-weight: lighter;
-    font-size: 1.5rem;
-    display: none;
+    display: initial;
+    cursor: pointer;
 }
 
 }
