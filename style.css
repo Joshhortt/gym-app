@@ -1057,8 +1057,11 @@
     
     /* --- Footer Section - small tablet size --- */
     .footer {
-        padding: 6rem;
-    }
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
 }
 
 @media screen and (max-width: 496px) {
