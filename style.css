@@ -1065,5 +1065,126 @@
 }
 
 @media screen and (max-width: 496px) {
-    
+            
+            /* Hero Section - smartphone size */
+        
+            .mid p {
+                margin-bottom: 0.8rem;
+            }
+            
+            .mid h2 {
+                font-size: 1.8rem;
+            }
+            
+            .mid h1 {
+                font-size: 2rem
+            }
+            
+            .mid .btn {
+             margin-top: 0.7rem;
+            }
+            
+            .mid .btn a {
+               font-size: 0.8rem;
+            }
+            
+            .mid .btn a.simple {
+                padding: 0.6rem 1.2rem;
+            }
+            
+            /* Details Section - smartphone size */
+            .details {
+                padding: 4rem 1rem;
+            }
+            
+            .details .one{
+                width: 100%;
+            }
+        
+            .details .one h3 {
+                font-size: 1.7rem;
+            }
+            
+            .details .two{
+                width: 100%;
+                
+            }
+            
+            .details .two h3{
+                font-size: 1.7rem;
+            }
+            
+            /* Trainer Section - smartphone size */
+            .trainer  {
+               padding: 5rem 2rem;
+               flex-direction: column;
+               justify-content: center;
+            }
+        
+            .trainer .about {
+                width: 70%;
+                margin-bottom: 1.7rem;
+            }
+        
+            .trainer .people {
+                width: 70%;
+            }
+            
+            /* --- Classes or Training Section - smartphone size--- */
+            .classes {
+                padding: 6rem;
+            }
+        
+            .classes .classesMenu {
+                flex-direction: column;
+                justify-content: center;
+            }
+        
+            .classes .classesMenu .team1 {
+                width: 65%;
+                margin-bottom: 20px;
+            }
+            
+            .contact {
+                padding: 5rem 2rem;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .contact .form {
+                width: 70%;
+                margin-bottom: 2rem;
+            }
+            .contact .form h2 {
+                font-size: 2rem;
+            }
+            
+            .contact .map h2 {
+                font-size: 2rem;
+            }
+        
+            .contact .map {
+                width: 70%;
+                box-shadow:
+            4.5px 2.3px 3.6px rgba(0, 0, 0, 0.035),
+            12.5px 6.3px 10px rgba(0, 0, 0, 0.05),
+            30.1px 15.1px 24.1px rgba(0, 0, 0, 0.065),
+            100px 50px 80px rgba(0, 0, 0, 0.1)
+            ;
+            }
+            
+            .contact .map p {
+                font-size: 0.9rem;
+                padding-top: 5px;
+                padding-bottom: 20px;
+            }
+            
+            /* --- Footer Section - smartphone size --- */
+            .footer {
+                padding: 5rem 2rem;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            } 
 }
