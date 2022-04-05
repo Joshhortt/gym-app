@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* --- Navbar Section --- */
 .nav {
     position: fixed;
@@ -36,7 +40,6 @@
 #item li {
     list-style: none;
     padding-right: 50px;
-
 }
 
 #item li a {
@@ -122,7 +125,6 @@
 
 .mid .btn a.simple:hover {
     color: #ff5733;
-
 }
 
 .mid .btn a.border {
@@ -524,12 +526,10 @@
 
 .contact .map {
     width: 45%;
-
 }
 
 .contact .map iframe {
     width: 100%;
-
 }
 
 .contact .map h2 {
@@ -601,7 +601,6 @@
 }
 
 } 
-
 
 @media screen and (max-width: 991px) {
     /* Nav Section - Tablet size */
@@ -1107,7 +1106,6 @@
             
             .details .two{
                 width: 100%;
-                
             }
             
             .details .two h3{
@@ -1169,8 +1167,7 @@
             
             /* --- Footer Section - smartphone size --- */
             .footer {
-                padding: 4rem 1rem; 
-                
+                padding: 4rem 1rem;   
             } 
 
             .footer p {
