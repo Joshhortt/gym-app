@@ -1116,18 +1116,27 @@
             
             /* Trainer Section - smartphone size */
             .trainer  {
-               padding: 5rem 2rem;
-               flex-direction: column;
-               justify-content: center;
+               padding: 4rem 1rem;
             }
         
             .trainer .about {
-                width: 70%;
-                margin-bottom: 1.7rem;
+                width: 100%;
             }
         
             .trainer .people {
-                width: 70%;
+                width: 80%;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .trainer .people .team1 {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .trainer .people .team2 {
+                width: 100%;
+               
             }
             
             /* --- Classes or Training Section - smartphone size--- */
